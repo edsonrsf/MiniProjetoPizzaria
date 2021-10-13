@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+#navbar-pizza {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    background-color: yellow;
+}
+
+#icone-navbar {
+    height: 34px;
+    margin-top: -6px;
+}
+
+#img_horarios {
+    border-top: 10px;
+    border: 6px solid rgb(177, 177, 177);
+    height: 180px;
+    width: 180px;
+}
+
+#texto_index {
+    border-bottom: 6px solid rgb(255, 74, 28);
+    background-color: #F2F2F2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#img_cardapio {
+    border: 6px solid rgb(177, 177, 177);
+}
+
+#item_cardapio {
+    border-bottom: 6px solid rgb(255, 74, 28);
+    background-color: #F2F2F2;
+}
