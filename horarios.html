@@ -6,6 +6,7 @@
     <meta charset="UTF-8" lang="pt-br">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -31,13 +32,13 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="parent-container">
         <div class="row">
             <h1 class="text-uppercase text-center">Horários</h1><br><br>
         </div>
         <div class="row">
             <div class="col-sm-4 text-center">
-                <img id="img_horarios" src="img/horarios/almoco.jpg" alt="">
+                <a class="image-link" href="img/horarios/almoco.jpg" title="Almoço"><img id="img_horarios" src="img/horarios/almoco.jpg" alt="almoco"></a>
                 <h3 class="text-uppercase">Almoço</h3>
                 <ul class="list-unstyled">
                     <li>Terça, Quarta, Quinta e Sexta: 12:00 às 15:00 </li>
@@ -46,7 +47,7 @@
             </div>
 
             <div class="col-sm-4 text-center">
-                <img id="img_horarios" src="img/horarios/jantar.jpg" alt="">
+                <a class="image-link" href="img/horarios/jantar.jpg" title="Jantar"><img id="img_horarios" src="img/horarios/jantar.jpg" alt="jantar"></a>
                 <h3 class="text-uppercase">Jantar</h3>
                 <ul class="list-unstyled">
                     <li>Terça, Quarta, Quinta e Sexta: 19:30 às 23:00</li>
@@ -55,13 +56,18 @@
             </div>
 
             <div class="col-sm-4 text-center">
-                <img id="img_horarios" src="img/horarios/eventos.jpg" alt="">
+                <a class="image-link" href="img/horarios/eventos.jpg" title="Eventos"><img id="img_horarios" src="img/horarios/eventos.jpg" alt="eventos"></a>
                 <h3 class="text-uppercase">Eventos</h3>
                 <p>Faça seus eventos e aniversários aqui, entre em contato para saber mais e reservar seu horario </p>
+
             </div>
+
         </div>
     </div>
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/magnific-popup.js"></script>
+    <script src="js/script.js"></script>
 
 </body>
 

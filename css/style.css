@@ -30,6 +30,8 @@
 
 #img_cardapio {
     border: 6px solid rgb(177, 177, 177);
+    height: 180px;
+    width: 320px;
 }
 
 #item_cardapio {
